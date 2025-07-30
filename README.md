@@ -1,4 +1,4 @@
-# zendesk-monitor
+# Maxdesk
 
 > Automação de monitoramento de tickets Zendesk com notificações sonoras e desktop.
 
