@@ -1,4 +1,4 @@
-# Zendesk Monitor Professional - Extensão Chrome
+# Maxdesk
 
 Uma extensão profissional para monitoramento de tickets do Zendesk com notificações em tempo real.
 
@@ -6,7 +6,7 @@ Uma extensão profissional para monitoramento de tickets do Zendesk com notifica
 
 - **Monitoramento em tempo real** de tickets por status (Novo, Aberto, Pendente, Em espera)
 - **Sistema de notificações** visuais e sonoras
-- **Interface intuitiva** com tema claro/escuro
+- **Interface intuitiva** com tema claro/escuro e fácil configuração
 - **Monitoramento seletivo** de views específicas
 - **Badge no ícone** mostrando tickets críticos
 - **Configurações personalizáveis** (intervalo, volume, etc.)
@@ -14,11 +14,11 @@ Uma extensão profissional para monitoramento de tickets do Zendesk com notifica
 
 ## 📦 Instalação
 
-### Método 1: Instalação Manual (Desenvolvimento)
+### Método 1: Instalação (Desenvolvimento)
 
 1. **Baixe os arquivos** da extensão e coloque em uma pasta
 2. **Abra o Chrome** e vá para `chrome://extensions/`
-3. **Ative o "Modo do desenvolvedor"** (canto superior direito)
+3. **Ative o "Modo do desenvolvedor"**
 4. **Clique em "Carregar sem compactação"**
 5. **Selecione a pasta** onde você salvou os arquivos da extensão
 6. A extensão será instalada e aparecerá na barra de ferramentas
@@ -40,24 +40,15 @@ zendesk-monitor/
     └── icon128.png
 ```
 
-## 🎨 Ícones da Extensão
-
-Você precisará criar os ícones nos seguintes tamanhos:
-
-- **16x16** pixels (icon16.png)
-- **32x32** pixels (icon32.png)
-- **48x48** pixels (icon48.png)
-- **128x128** pixels (icon128.png)
-
 **Sugestão de design:**
 
 - Ícone de sino (bell) em estilo flat
 - Cores: azul (#2563eb) para o tema claro
 - Fundo transparente ou branco
 
-## 🛠️ Como Usar
+## 🛠Como Usar
 
-1. **Abra uma página do Zendesk** (qualquer subdomínio .zendesk.com)
+1. **Abra uma página do Zendesk**
 2. **Clique no ícone** da extensão na barra de ferramentas
 3. **Configure suas preferências**:
    - Intervalo de monitoramento (1-60 segundos)
@@ -67,19 +58,19 @@ Você precisará criar os ícones nos seguintes tamanhos:
 
 ### Funcionalidades Principais
 
-#### 🎯 Badge do Ícone
+#### Badge do Ícone
 
 - Mostra o número de tickets **críticos** (Novos + Abertos)
 - Cor vermelha quando há tickets
 - Desaparece quando todos os tickets são resolvidos
 
-#### 🔔 Notificações
+#### Notificações
 
 - **Notificação do navegador** para novos tickets
 - **Som de alerta** configurável
 - **Histórico** de atividades no popup
 
-#### ⚙️ Configurações
+#### Configurações
 
 - **Pausar/Retomar** monitoramento
 - **Silenciar/Ativar** notificações
@@ -87,13 +78,13 @@ Você precisará criar os ícones nos seguintes tamanhos:
 - **Volume** do som (0-100%)
 - **Tema** claro ou escuro
 
-#### 👀 Monitoramento de Views
+#### Monitoramento de Views
 
 - Selecione **views específicas** para monitorar
 - Visualize **contadores individuais**
 - **Notificações separadas** por view
 
-## 🔧 Configuração Avançada
+## Configuração Avançada
 
 ### Permissões Necessárias
 
@@ -121,7 +112,7 @@ As configurações são salvas usando `chrome.storage.local`:
 }
 ```
 
-## 🐛 Resolução de Problemas
+## Resolução de Problemas
 
 ### A extensão não aparece
 
@@ -147,7 +138,7 @@ As configurações são salvas usando `chrome.storage.local`:
 - Clique em "Configurar Views" para forçar uma atualização
 - Verifique se você tem permissão para ver as views no Zendesk
 
-## 📝 Logs de Debug
+## Logs de Debug
 
 Para debug, abra o console da extensão:
 
@@ -156,7 +147,7 @@ Para debug, abra o console da extensão:
 3. Clique em "Inspecionar visualizações: service worker"
 4. Ou clique em "Inspecionar visualizações: popup.html"
 
-## 🔄 Atualizações
+## Atualizações
 
 Para atualizar a extensão:
 
@@ -164,28 +155,20 @@ Para atualizar a extensão:
 2. Vá para `chrome://extensions/`
 3. Clique no ícone de "Atualizar" na extensão
 
-## ⚠️ Limitações Conhecidas
+## Limitações Conhecidas
 
 - Funciona apenas em páginas do Zendesk (.zendesk.com)
 - Depende da estrutura HTML atual do Zendesk
 - Notificações sonoras podem não funcionar em todas as situações
 - Requer permissões de notificação do navegador
 
-## 🤝 Contribuindo
-
-Para contribuir com melhorias:
-
-1. Teste a extensão thoroughly
-2. Reporte bugs com detalhes
-3. Sugira novos recursos
-4. Contribua com código
-
 ## 📄 Licença
 
-Esta extensão é fornecida "como está" para uso interno. Modifique conforme necessário.
+Esta extensão é fornecida para uso livre. Modifique conforme necessário.
 
 ---
 
-**Versão:** 7.1.0 BETA  
+**Versão:** BETA  
 **Compatibilidade:** Chrome 88+ (Manifest V3)  
-**Última atualização:** 2025
+**Última atualização:** AGO/2025
+
